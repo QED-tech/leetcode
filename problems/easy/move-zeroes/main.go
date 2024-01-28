@@ -23,6 +23,7 @@ func moveZeroes(nums []int) {
 	left := 0
 	for i := 0; i < len(nums); i++ {
 		if nums[i] == 0 {
+			left = i
 			for left < len(nums)-1 && nums[left] == 0 {
 				left++
 			}
