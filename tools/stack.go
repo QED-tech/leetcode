@@ -1,3 +1,5 @@
+package tools
+
 type stack []int
 
 func (s *stack) top() int {
