@@ -17,3 +17,4 @@ func BinarySearch(list []int, needle int, low, hight int) int {
 
 	return -1
 }
+
